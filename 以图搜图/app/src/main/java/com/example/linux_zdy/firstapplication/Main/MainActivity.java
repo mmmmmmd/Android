@@ -92,32 +92,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
         requestByOkhttp(page++);
 
-        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
-            @Override
-            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                super.onScrollStateChanged(recyclerView, newState);
-            }
-
-            /*
-               当RecyclerV滑动时触发
-             */
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
-
-                //获取可见的item个数
-                int lastVisibleItemPosition = gridLayoutManager.findLastVisibleItemPosition();
-                if(lastVisibleItemPosition+1 == adapter.getItemCount()){
-                    //加载
-                    boolean isRefreshing = swipeRefreshLayout.isRefreshing();
-                    if(isRefreshing){
-                        adapter.notifyItemRemoved(adapter.getItemCount());
-                        return ;
-                    }
-                }
-            }
-        });
-
 
 
     }
@@ -127,12 +101,13 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     @Override
     public void onRefresh() {
 
-        swipeRefreshLayout.setRefreshing(true);
+
         swipeRefreshLayout.postDelayed(new Runnable() {
             @Override
             public void run() {
                 beanList.clear();
-                requestByOkhttp(++page);
+                page = ++page;
+                requestByOkhttp(page);
                 swipeRefreshLayout.setRefreshing(false);  //设置进度条不显示
             }
         },2000);
