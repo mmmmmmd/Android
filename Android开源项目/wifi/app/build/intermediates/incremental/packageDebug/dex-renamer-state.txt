@@ -1,0 +1,4 @@
+#Wed Jun 28 20:51:19 CST 2017
+base.0=E\:\\ANDROID\\Car_Driver2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\ANDROID\\Car_Driver2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

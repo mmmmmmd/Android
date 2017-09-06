@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_20c9959af66df37bf6aff886e955de4a92505973.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_7018a94657ec17ebf1887844c62d704b3d2f12da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_23ceb652175f3b4bf8dd3f6313da69d078da1f5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_b8891db4593f590f70ce4be1ac8517de0b008c9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_6f38498e0634888b4bb086c7ee86bbc1a46b0bd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_47777e4be38cc537a121877a09f9eeed1b0e6f9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_6d31c6a6e1513252bf7177ebd8036affbe04320b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_5fd57dbf0e5cc1b27da84015a4e090733c6fd260.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\SDK\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_1cfd546983820f460b005cb3083348890cd00c72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_3b0778ffd405439a243f68619600d55ceca483d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_9889568db5fdd12d4fb59f99617ea9fc0d38dc9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_fbf9b04e3fefd938165365b0ea804ba055d521aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_3ef3fd59ec535ac95e49b741c82ea14b30d4f86b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_d556d32dcbba7549fd3ae2c5a40bc5fc3e37b065.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ANDROID\Bluetooth\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="E:\ANDROID\Bluetooth\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_e9b6bd10be576bfb46c7c1eb19e236d0ad3758f1.jar" />
+    </item>
+
+</items>

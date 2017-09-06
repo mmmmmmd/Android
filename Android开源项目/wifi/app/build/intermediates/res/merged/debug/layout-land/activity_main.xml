@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.admin.car_driver.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="等待链接...."
+        android:id="@+id/mtext" />
+
+    <Button
+        android:text="左转"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/mtext"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/left"
+        android:id="@+id/left" />
+
+    <Button
+        android:text="后退"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/front"
+        android:background="@drawable/down"
+        android:id="@+id/back" />
+
+    <TextView
+        android:text="链接IP:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView4" />
+
+    <Button
+        android:text="右转"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:background="@drawable/right"
+        android:id="@+id/right"
+        android:layout_below="@+id/front"
+        android:layout_toEndOf="@+id/front" />
+
+    <Button
+        android:text="前进"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/front"
+        android:background="@drawable/turn"
+        android:layout_marginStart="35dp"
+        android:layout_above="@+id/left"
+        android:layout_toEndOf="@+id/left" />
+
+    <TextView
+        android:text="本机IP:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/link"
+        android:layout_below="@+id/localip"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/localip"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/edit" />
+
+    <Button
+        android:text="加速"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:id="@+id/high_speed"
+        android:background="@drawable/high_speeds"
+        android:layout_above="@+id/front"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="400px"
+        android:layout_height="150px"
+        android:id="@+id/edit"
+        android:text="192.168.4.1"
+        android:layout_alignBottom="@+id/link"
+        android:layout_alignStart="@+id/right" />
+
+    <Button
+        android:text="减速"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/low_speeds"
+        android:id="@+id/low_speed"
+        android:layout_alignBottom="@+id/high_speed"
+        android:layout_toStartOf="@+id/link"
+        android:layout_marginBottom="7dp" />
+
+</RelativeLayout>
