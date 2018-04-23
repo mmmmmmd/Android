@@ -1,4 +1,1 @@
-hello world!
-Git is wonderful!
-Creating a new branch is quick AND simple
-android is good!
+我的安卓仓库
