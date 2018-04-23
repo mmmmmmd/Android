@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVPSample</string>
+    <string name="weather">天气</string>
+</resources>
